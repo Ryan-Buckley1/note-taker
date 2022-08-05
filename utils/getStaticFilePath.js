@@ -1,5 +1,6 @@
 const path = require("path");
 
+// gets name from request and creates a path for it
 const getStaticFilePath = (fileName) => {
   try {
     const filePath = path.join(__dirname, `../public/${fileName}.html`);
@@ -9,4 +10,5 @@ const getStaticFilePath = (fileName) => {
   }
 };
 
+// Exports function
 module.exports = getStaticFilePath;

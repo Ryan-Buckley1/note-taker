@@ -1,29 +1,19 @@
 {
   "notes": [
     {
-      "title": "Test Title",
-      "text": "Test text",
-      "id": "3"
-    },
-    {
-      "title": "Test Title",
-      "text": "Test text",
-      "id": "4"
-    },
-    {
-      "title": "Test Title",
-      "text": "Test text",
+      "title": "New Note made by me",
+      "text": "This is a sample note made by me to show that it works",
       "id": "5"
     },
     {
-      "title": "Test Title",
-      "text": "Test text",
-      "id": "4"
+      "title": "fdsa",
+      "text": "fdsafe",
+      "id": "1"
     },
     {
-      "title": "new note",
-      "text": "notie note",
-      "id": "4"
+      "title": "Sample note",
+      "text": "Another sample note to show usage.",
+      "id": "2"
     }
   ]
 }

@@ -9,12 +9,9 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static("public"));
 
+// sends to router/ middleware
 app.use("/api", apiRoutes);
 app.use("/", htmlRoutes);
-
-// app.use("/hello", () => {
-//   return "hello world";
-// });
 
 app.listen(PORT, () => {
   console.log(`Example app listening at http://localhost:${PORT}`);
